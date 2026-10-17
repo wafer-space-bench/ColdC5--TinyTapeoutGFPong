@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/ColdC5/TinyTapeoutGFPong
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26a
+  slot: tt_um_main
+  project: Pong in Verilog
+  size: 1x2
+  kind: digital (Verilog)
+  commit: 32013f48b394abd0ca3c1c03d127e9cf85453c7d
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26a/tt_um_main
+  branch: tapeout/tinytapeout/ttgf26a/tt_um_main
+  page: https://app.tinytapeout.com/shuttles/ttgf26a
+generated: '2026-10-17T23:25:37Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26a/tt_um_main
+- upstream/main
